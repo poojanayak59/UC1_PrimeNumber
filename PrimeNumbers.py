@@ -7,7 +7,7 @@ def validate():
         for i in range(2, int(aa / 2) + 1):
             print(i)
             if (aa % i) == 0:
-                print(i)
+                # print(i)
                 print("Sorry, Not a prime number")
                 break
         else:
